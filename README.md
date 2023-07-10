@@ -11,7 +11,7 @@ Munchies is a recipe app that allows users to search for recipes based on the in
 4.Download recipes as JSON files.
 5.Responsive design for optimal viewing on different devices.
 
-##Technologies Used
+## Technologies Used
 
 .HTML
 .CSS
