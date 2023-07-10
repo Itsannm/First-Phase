@@ -42,7 +42,7 @@ Click on a recipe card to view detailed information.
 
 Use the pagination buttons to navigate through multiple pages of results.
 
-Dependencies
+## Dependencies
 The Munchies recipe app utilizes the following dependencies:
 
 Font Awesome: Icon library for social media icons.
