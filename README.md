@@ -58,21 +58,6 @@ const apiKey = 'YOUR_API_KEY';
 Contributing
 Contributions to the Munchies recipe app are welcome! If you'd like to contribute, please follow these guidelines:
 
-## Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes.
-sql
-Copy code
-git commit -m "Add your commit message"
-Push your branch.
-bash
-Copy code
-git push origin feature/your-feature-name
-Submit a pull request.
-Acknowledgements
-Spoonacular: Food API provider.
-To access the deployed page, please visit: https://munchies2-0.onrender.com/#
-
 ## Dependencies
 The Munchies recipe app utilizes the following dependencies:
 
