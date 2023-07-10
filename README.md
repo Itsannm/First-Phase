@@ -1,4 +1,7 @@
 # First-Phase (Munchies!)
+## Pre-view
+[screen-capture.webm](https://github.com/Itsannm/First-Phase/assets/134596553/d24cdfe2-c711-425c-a718-28e5f1a815ba)
+
 ## Intro
 To access the deployed page, please visit: https://firstphase.onrender.com/
 Munchies is a recipe app that allows users to search for recipes based on the ingredients they have and the amount of time they have available. Users can save their favorite recipes and share them with friends and family. The app utilizes Spoonacular's Food API to access a vast collection of recipes and food products.
