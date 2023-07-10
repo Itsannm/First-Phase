@@ -44,9 +44,9 @@ Use the pagination buttons to navigate through multiple pages of results.
 
 ## Dependencies
 The Munchies recipe app utilizes the following dependencies:
-
 Font Awesome: Icon library for social media icons.
-API Usage
+
+## API Usage
 The app utilizes Spoonacular's Food API to search for recipes and retrieve recipe details. To use the app, an API key is required. Please follow these steps:
 
 Sign up for a Spoonacular API key at the Spoonacular Developer Portal.
