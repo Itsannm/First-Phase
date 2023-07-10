@@ -88,11 +88,16 @@ Font Awesome: Icon library for social media icons.
 The app utilizes Spoonacular's Food API to search for recipes and retrieve recipe details. To use the app, an API key is required. Please follow these steps:
 
 Sign up for a Spoonacular API key at the Spoonacular Developer Portal.
+
 Copy your API key.
 In the JavaScript file script.js, replace 'YOUR_API_KEY' with your actual Spoonacular API key:
 javascript
 Copy code
 const apiKey = 'YOUR_API_KEY';
+
+## Contributing
+Contributions to the Munchies recipe app are welcome! If you'd like to contribute, please follow these guidelines:
+
 
 
 
