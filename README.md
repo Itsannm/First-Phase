@@ -78,6 +78,10 @@ Acknowledgements
 Spoonacular: Food API provider.
 To access the deployed page, please visit: https://munchies2-0.onrender.com/#
 
+## Dependencies
+The Munchies recipe app utilizes the following dependencies:
+
+Font Awesome: Icon library for social media icons.
 
 
 
