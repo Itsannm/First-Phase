@@ -137,13 +137,16 @@ header .navigation a:hover {
   gap: 5px;
 }
 
-button.prev-next-btn {
-  background-color: rgb(209, 43, 21);
-  color: rgb(10, 9, 9);
-  border: top 10;
-  cursor: pointer;
-  padding: 8px 16px;
-  border-radius: 4px;
+.search-container #instructions-input{
+    padding: 10px;
+  font-size: 18px;
+  margin-right: 8px;
+  width: 100%;
+  border: none;
+  background: rgb(221, 216, 216);
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
 }
 
 .search-container .prev-next-btn:hover { /* Fixed typo: .search-containerbutton to .search-container */

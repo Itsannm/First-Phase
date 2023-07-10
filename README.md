@@ -114,6 +114,9 @@ Contributions to the Munchies recipe app are welcome! If you'd like to contribut
 
 7. Submit a pull request.
 
+## Acknowledgements
+Spoonacular: Food API provider.
+To access the deployed page, please visit: https://firstphase.onrender.com/
 
 
 
