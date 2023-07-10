@@ -17,7 +17,7 @@ Munchies is a recipe app that allows users to search for recipes based on the in
 .CSS
 .JavaScript
 
-##Getting Started
+## Getting Started
 
 To get a local copy of the Munchies recipe app up and running, follow these steps:
 
