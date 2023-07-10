@@ -1,1 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #f09690;
+}
+
+header h2 {
+  color: rgb(209, 43, 21);
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+header .navigation {
+  display: flex;
+  color: #000;
+  align-items: center; /* Align items vertically */
+}
+
+header .navigation a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+  margin-right: 30px;
+}
+
+header .navigation a:not(:last-child) {
+  margin-right: 0;
+}
+
+header .navigation a:hover {
+  background: #fff;
+}
+
+#image-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("pexels-lukas-616401.jpg"); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+#introClass {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  
+}
+
+.search-container {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  padding: 20px;
+  border: none;
+  background:  rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  margin-right: 8px;
+  width: 100%;
+  border: none;
+  background: rgb(221, 216, 216);
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  
+}
+
+.search-container #search-btn {
+  padding: 8px 16px;
+  background-color: rgb(209, 43, 21);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container #search-btn:hover {
+  background-color: rgba(209, 43, 21, 0.8);
+}
+
+.search-container #recipe-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+button.prev-next-btn {
+  background-color: rgb(209, 43, 21);
+  color: rgb(10, 9, 9);
+  border: top 10;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.search-container .prev-next-btn:hover { /* Fixed typo: .search-containerbutton to .search-container */
+  background-color: rgba(255, 192, 203, 0.8);
+}
+
+.search-container #create-btn {
+  padding: 8px 16px;
+  background-color: rgb(209, 43, 21);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container #create-btn:hover {
+  background-color: rgba(209, 43, 21, 0.8);
+}
+
+.media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.media-icons a {
+  position: relative;
+  color: #111;
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property: transform;
+  margin-right: 60px;
+}
+
+.media-icons a:not(:last-child) {
+  margin-right: 0;
+}
+
+.media-icons a:hover {
+  transform: scale(1.5);
+}
+
+label {
+  display: none;
+}
+
+#check {
+  z-index: 3;
+  display: none;
+}
+
+/*Responsive styles*/
+@media (max-width: 960px) {
+  header .navigation {
+    display: none;
+  }
+
+  label {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    transform-origin: color;
+  }
+
+  label:hover {
+    color: #fff;
+  }
+
+  label .close-btn {
+    display: none;
+  }
+
+  #check:checked ~ header .navigation {
+    z-index: 2;
+    position: fixed;
+    background: #f09690;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #check:checked ~ header .navigation a {
+    font-weight: 700;
+    margin-right: 0%;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+  }
+
+  #check:checked ~ header label .menu-btn {
+    display: none;
+  }
+
+  #check:checked ~ header label .close-btn {
+    z-index: 2;
+    display: block;
+    position: fixed;
+  }
+
+  label .menu-btn {
+    position: absolute;
+  }
+}

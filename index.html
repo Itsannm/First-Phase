@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Munchies: A Recipe App</title>
+  <title>Phase-1: Ann Mwanzia</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Munchies: A Recipe App</h1>
-    <form id="search-form">
-      <input type="text" id="search-input" placeholder="Search for recipes...">
-      <button type="submit">Search</button>
-    </form>
-  </header>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ </head>
+    <body>
+  <input type="checkbox" id="check">
+  <div id="image-background"></div>
 
-  <main>
-    <section id="recipe-results"></section>
-    <section id="favorites-container"></section>
-  </main>
+  <header>
+    <h2>Munchies Recipes</h2>
+    <div class="navigation">
+      <a href="#search-container">Home</a>
+      <a href="#recipe-form">Create Recipe</a>
+      <a href="#icons">Connect</a>
+    </div>
+    <label for="check">
+      <i class="fas fa-bars menu-btn"></i>
+      <i class="fas fa-times close-btn"></i>
+    </label>
+  </header>
+    <div id="introClass">
+     
+      <div class="intro">
+        <h3>Munchies</h3>
+        <p>Your culinary companion for inspired cooking!
+          Explore diverse cuisines, save and share 
+          your favorite recipes, and elevate your cooking experience. 
+          Get ready to ignite your creativity in the kitchen and embark 
+          on a delicious journey...</p>
+      </div>
+    </div>
+  
+  <div id="content">
+    <div class="search-container">
+
+      <h3>Discover Your Perfect Dish!</h3>
+         <input type="text" placeholder="Type Ingredients, diet, nutrients...">
+        <button id="search-btn">Search</button>
+
+      <div id="recipe-container"></div>
+
+        <h3>Create Your Recipe!</h3>
+      <form id="recipe-form">
+        <div class="item1"> 
+          <input type="text" placeholder="Create Recipe" id="title-input">
+        </div>
+       <div>
+          <button type="submit" id="create-btn">Submit</button>
+       </div>
+      </form>
+
+    </div>
+      
+    </div>  
+      
+              
+  <div class="media-icons" id="icons">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  
+  </div> 
+  </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
