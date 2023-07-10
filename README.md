@@ -58,7 +58,7 @@ const apiKey = 'YOUR_API_KEY';
 Contributing
 Contributions to the Munchies recipe app are welcome! If you'd like to contribute, please follow these guidelines:
 
-Fork the repository.
+## Fork the repository.
 Create a new branch for your feature or bug fix.
 Commit your changes.
 sql
